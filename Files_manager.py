@@ -8,15 +8,15 @@ import logging
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
-# Source 
-source_dir = "C:\\Users\\sabau\\Downloads"
-# Destination
-dest_dir_sfx = "C:\\Users\\sabau\\Downloads\\Audios"
-dest_dir_video = "C:\\Users\\sabau\\Downloads\\Videos"
-dest_dir_image = "C:\\Users\\sabau\\Downloads\\Image"
-dest_dir_documents = "C:\\Users\\sabau\\Downloads\\Docs"
-dest_dir_rar = "C:\\Users\\sabau\\Downloads\\rar"
-dest_dir_exe = "C:\\Users\\sabau\\Downloads\\exe"
+# Source example:- C:\\Users\\UserName\\Downloads
+source_dir = ""
+# Destination example:- C:\\Users\\UserName\\Downloads\\Documents
+dest_dir_sfx = ""
+dest_dir_video = ""
+dest_dir_image = ""
+dest_dir_documents = ""
+dest_dir_rar = ""
+dest_dir_exe = ""
 
 #  supported image types
 image_extensions = [".jpg", ".jpeg", ".jpe", ".jif", ".jfif", ".jfi", ".png", ".gif", ".webp", ".tiff", ".tif", ".psd", ".raw", ".arw", ".cr2", ".nrw",
